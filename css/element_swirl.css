@@ -150,7 +150,7 @@
  }
  
  .js-scrolling__page-1 .slider-page--left .slider-page__content {
-   background-image: url("52.png");
+   background-image: url("../img/52.png");
    
  }
  .js-scrolling__page-1 .slider-page--right .slider-page__content {
@@ -165,11 +165,11 @@
    color: #282828;
  }
  .js-scrolling__page-2 .slider-page--right .slider-page__content {
-   background-image: url("51.jpg");
+   background-image: url("../img/51.jpg");
  }
  
  .js-scrolling__page-3 .slider-page--left .slider-page__content {
-   background-image: url("53.jpg");
+   background-image: url("../img/53.jpg");
  }
  .js-scrolling__page-3 .slider-page--right .slider-page__content {
    background-color: #282828;

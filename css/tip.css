@@ -35,27 +35,27 @@ Home Slider
 }
 
 .swiper-image-one {
-  background-image: url(tip\ bg1.jpg);
+  background-image: url(../img/tipbg1.jpg );
 }
 
 .swiper-image-two {
-  background-image: url(tip\ bg2.jpg);
+  background-image: url(../img/tip\ bg2.jpg);
 }
 
 .swiper-image-three {
-  background-image: url(tip\ bg3.jpg);
+  background-image: url(../img/tip\ bg3.jpg);
 }
 
 .swiper-image-four {
-  background-image: url(tip\ bg2.jpg);
+  background-image: url(../img/tip\ bg2.jpg);
 }
 
 .swiper-image-five {
-  background-image: url(tip\ bg4.jpg);
+  background-image: url(../img/tip\ bg4.jpg);
 }
 
 .swiper-image-six {
-  background-image: url(tip\ bg2.jpg);
+  background-image: url(../img/tip\ bg2.jpg);
 }
 
 .swiper-image {
