@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Secular One", sans-serif;
+  text-decoration: none;
+}
+body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777777;
+}
+.header {
+  height: 98.5vh;
+  background-image: linear-gradient(
+      to right bottom,
+      #e0ffff,
+      rgba(124, 158, 154, 0.8)
+    ),
+    url(bg1.jpg);
+  background-size: cover;
+  background-position: top;
+
+  position: relative;
+}
+
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  clip-path: circle(45%);
+}
+.logo {
+  height: 100px;
+  max-height: 100%;
+}
+.head-primary {
+  color: white;
+  text-transform: uppercase;
+}
+.head-primary-main {
+  display: block;
+  
+  font-size:  5rem; 
+  font-weight: 400;
+  letter-spacing: 40px;
+  text-align: center;
+}
+.head-primary-sub {
+  display: block;
+  font-size: 2.5rem;
+  
+  font-weight: 700;
+  letter-spacing: 40px;
+}
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.login {
+  position: absolute;
+  right: 0%;
+  top: 4%;
+  display: inline;
+  font-size: 40px;
+  text-align: right;
+  margin-right: 25px;
+  border:1px solid aqua  ;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border-radius:  50px; 
+  transition: 1s;
+  
+}
+.login a{
+  color:#a6f6f1;
+}
+.login:hover{
+  background-color: #0d7377;
+  ;
+}
+.menu{
+  display: grid;
+  grid-template-columns:repeat(4,1fr) ;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.menu::-webkit-scrollbar{
+  display: none;
+
+}
+.menu-item{
+  position: relative;
+  width: 100%;
+ transition:1s;
+
+
+}
+.menu-item:hover{
+  transform: scale(1.075);
+  
+}
+.menu-item a{
+  top: 0;
+  left: 0;
+  font-size: 2rem;
+position: absolute;
+margin-left: 10%;
+margin-top: 20%;
+color: #f9f9f9;
+font-weight: 700;
+
+}
+.menu-item img{
+  width: 100%;;
+height: auto;
+}
+.c1{
+  background-color: #80f0e8;
+}
+.c2{
+  background-color: #32e0c4;
+}
+.c3{
+  background-color: #9d65c9;
+}
+.c4{
+  background-color: rgb(212, 76, 122);
+}
+@media screen and (max-width:1200px){
+ .menu{
+   grid-template-columns: 1fr;
+ }
+ .menu-item{
+   text-align: left;
+ }
+ .menu-item a{
+   font-size: 3rem;
+ }
+ .head-primary-main {
+  display: block;
+  
+  font-size:  3rem; 
+  font-weight: 300;
+  letter-spacing: 20px;
+  text-align: center;
+}
+.head-primary-sub {
+  display: block;
+  font-size: 2rem;
+  
+  font-weight: 300;
+  letter-spacing: 20px;
+  text-align: center;
+}
+}
